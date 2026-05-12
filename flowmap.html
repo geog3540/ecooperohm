@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Map Project – Eleanor Cooper-Ohm</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Eleanor's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                     <li class="nav-item"><a class="nav-link" href="shortbio.html">About</a><span class="sr-only">current</span>
+                </li>
+                    <li class="nav-item"><a class="nav-link" href="files/Resume.pdf">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mailto:ecooperohm@uiowa.edu">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container" style="margin-top: 90px;">
+
+        <h1 class="my-4">Interstate Migration Flow Map (1887–1924)
+            <br><small>Flow Map Design & Interpretation</small>
+        </h1>
+
+        <!-- Flow Map Image -->
+        <div class="row mb-4">
+            <div class="col-lg-12">
+                <img src="img/flowmap.png" class="img-fluid" alt="Flow Map Export">
+            </div>
+        </div>
+
+        <!-- Link to JSON Project File -->
+        <p>
+            <strong>Download my FlowMapper project file:</strong><br>
+            <a href="files/projectfile.json" download>flowmap_project.json</a>
+        </p>
+
+        <hr>
+
+        <!-- Interpretation Section -->
+        <h3>Interpretation of Flow Patterns</h3>
+
+        <h5>1. Places that Attract and Send the Most Flows</h5>
+        <p>
+            The Midwestern states, especially Illinois, Ohio, and Pennsylvania, receive the largest inbound flows,
+            shown by the thickest lines and darkest blue shading. These states were major industrial centers during
+            the late 19th and early 20th centuries, drawing migrants from across the country. In contrast, southern
+            states such as Mississippi and Alabama act as major sending regions, with lighter choropleth shading and
+            numerous outbound flows.
+        </p>
+
+        <h5>2. General Direction of Flows</h5>
+        <p>
+            The dominant migration patterns move south-to-north and west-to-east. Many flows converge toward the
+            Great Lakes region, reflecting industrial expansion and urban job opportunities. Western states show
+            fewer flows overall, consistent with lower population densities during this period.
+        </p>
+
+        <h5>3. Relationship Between Flow Patterns, Node Symbols, and Choropleth Map</h5>
+        <p>
+            The choropleth background reinforces the flow patterns: states with high in-migration appear in darker
+            blues and also receive the thickest inbound flows. States with low or negative net migration appear in
+            warmer red tones and send out more flows. The node symbols, placed at state centroids, help anchor the
+            flow lines geographically without distracting from the map’s structure.
+        </p>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">© Eleanor Cooper-Ohm 2026</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

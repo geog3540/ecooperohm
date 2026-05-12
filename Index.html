@@ -23,7 +23,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <a class="navbar-brand" href="#">Eleanor's Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,13 +35,13 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="shortbio.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="files/Resume.pdf">Resume</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="mailto:ecooperohm@uiowa.edu">Contact</a>
             </li>
           </ul>
         </div>
@@ -52,74 +52,75 @@
     <div class="container">
 
       <!-- Page Heading -->
-      <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
+      <h1 class="my-4">Geographic Visualization Portfolio    
+        <small>Eleanor Cooper-Ohm</small>
       </h1>
 
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="img/choropleth.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project One</a>
+                <a href="https://observablehq.com/d/4144f3b8a44a5334">Nebraska Nursing Facilities per Person</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+              <p class="card-text">This project visualizes the rate of nursing‑facility residents per 100 people across Nebraska’s 93 counties using a choropleth map built in Observable. I joined county‑level Census data to Nebraska’s county boundaries using FIPS codes, calculated per‑capita nursing‑facility rates, and applied a five‑class natural breaks classification to highlight meaningful spatial patterns. The map reveals clusters of higher rates in eastern Nebraska near population centers and lower rates across rural western counties.!</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="https://observablehq.com/d/469f7f2b1f38ae05"><img class="card-img-top" src="img/ColdCases.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Two</a>
+                <a href="https://observablehq.com/d/469f7f2b1f38ae05">Virginia Cold Cases</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+              <p class="card-text">This project maps cold case locations across Virginia using proportional circles sized by the number of years since each crime. The map reveals clusters of older cases in major metropolitan regions such as Richmond, Norfolk, and Northern Virginia, with more recent cases spread across rural counties. </p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="https://observablehq.com/d/70fe492ffe9baaf1"><img class="card-img-top" src="img/BivariateChoropleth.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Three</a>
+                <a href="https://observablehq.com/d/70fe492ffe9baaf1">Distribution of young people and Hispanic Populations in Virginia</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+              <p class="card-text">This project maps two demographic variables in Virginia- percent of population under 18 and percent Hispanic- using a 3×3 bivariate choropleth color scheme. County geometries from a TopoJSON file were joined with ACS demographic data using the shared GEOID field, and both variables were classified into low, medium, and high categories using quantiles. The map reveals strong regional patterns, including high‑high clusters in Northern Virginia and low‑low clusters across the rural southwest. A custom rotated legend helps readers interpret how the two variables combine spatially.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="flowmap.html"><img class="card-img-top" src="img/flowmap.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Four</a>
+                <a href="flowmap.html">Interstate Migration Flowmap 1887-1924</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+              <p class="card-text">This project visualizes interstate migration flows in the United States from 1887 to 1924 using a combination of nodes, proportional flow lines, and a choropleth background. The visualization reveals strong south‑to‑north and west‑to‑east migration patterns, with the Midwest and Great Lakes region emerging as major destinations and several southern states acting as key sources. Together, the flow lines and choropleth provide a clear picture of how economic change and industrial expansion shaped population movement during this period. </p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="img/GeodatabaseProject.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Five</a>
+                <a href="files/Final_Project3_Geodatabases.pdf">Raptor Geodatabase</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+              <p class="card-text">This project builds a spatial database to analyze twenty years of raptor migration patterns at two Iowa HawkWatch sites: Hitchcock along the Missouri River and Grammar Grove along the Iowa River. We integrated point‑based raptor observations with weather records, historic vegetation, major water bodies, and conservation areas to explore how environmental conditions relate to migration counts. </p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="img/Lights.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Six</a>
+                <a href="files/Detecting Conflict with Nighttime Lights.pdf">Detecting Conflict with Nighttime Lights</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+              <p class="card-text">This project uses VIIRS nighttime lights data to compare changes in radiance over time in Damascus, Syria, and the Zaatari Refugee Camp in Jordan. Monthly average radiance charts show Damascus steadily dimming as conflict damages infrastructure and displaces residents, while Zaatari grows brighter as the camp expands to support incoming refugees. The analysis demonstrates how nighttime lights can reveal population movement and conflict impacts when on‑the‑ground data is limited.
+</p>
             </div>
           </div>
         </div>
