@@ -1,3 +1,4 @@
+*This repository is used for maintaining the source code and publishing web mapping assignments for GEOG 3540: Introduction to Geographic Visualization 
 *This template has been replaced with a snippet on Start Bootstrap. The repository for this template has been archived, and will receive no future updates. [Click here](https://startbootstrap.com/snippets/portfolio-three-column/) to view the actively developed snippet for this template on Start Bootstrap.*
 
 # [Start Bootstrap - 3 Col Portfolio](https://startbootstrap.com/template-overviews/3-col-portfolio/)
