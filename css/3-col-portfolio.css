@@ -5,8 +5,10 @@
  */
 
 body {
+  background: linear-gradient(to bottom, #c6d9f7, #12035c);
   padding-top: 54px;
 }
+
 
 @media (min-width: 992px) {
   body {
